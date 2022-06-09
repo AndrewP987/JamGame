@@ -1,7 +1,7 @@
 # JamGame
-LOOK AT HEADINGS TO READ CERTAIN CONTENT
+LOOK AT UPPERCASE HEADINGS TO READ CERTAIN CONTENT
  
-** dfd**
+GAME BREAKDOWN AND SHORT DESCRIPTIONS
  
 Jam Game is a popular board game amongst younger children. In light of this, I decided to create a GUI version of the game using Java and JavaFX to create UI design. 
 
@@ -13,7 +13,11 @@ Back to cars, cars either move horizontally or vetically and they cannot jump ov
 
 In the game another important concept besides Breadth First Search and configuration making, is using the concept of MVC or Model View Controller. Whenever a car was pressed or a load button was clicked, the controller called the model to run the specific function to take care of that action. In doing so the view was then updated for the user interface. For example, if the user wants to change the game puzzle, they would press the load button, in which the controller would notify the model to execute the load function for the user's new puzzle choice. If the puzzle is valid, than the view is updated by displaying the new puzzle.
 
+MUST HAVE TO USER 
+
 In order to use the game, the user must have the latest version of JavaFX download and add its' 'lib', library directory to the project structure and they must have the module-info.java file. 
+
+PICTURES WITH DESCRTIPTION 
 
 ![Selected Picture](https://user-images.githubusercontent.com/71080514/172960040-8b8cfa04-b03a-4579-ac28-8979cc25ee57.png)
 In the picture above, this is the result when your FIRST select a car. Since a car is present at (3,1) aka row 3, column 1, it is displayed that the user has selected a car and where they selected it. If there was not a car at the spot selected aka a blank square with a '.' inside it, the player would be notified that there isn't a car there. 
@@ -23,6 +27,7 @@ In the picture above, this is the result when you SECOND select a spot to move s
 from row 3, col 1 to row 3, col 0. Since the move is valid that is displayed to the user. In a case where the move is invalid, the user would be notified and the move would not be completed. 
 
 ![Hint Picture](https://user-images.githubusercontent.com/71080514/172959998-aeb4f5c9-d6e7-4ccc-b6c5-6337276d1c04.png)
+When pressing the hint button, you are given the next best game board that was found via Breadth First Search algorithm. You can see that the algo found in the shortest path to a solution, moving the 'D' car up was first and that car was automatically moved and displayed to the user. 
 
 ![Puzzle Picture](https://user-images.githubusercontent.com/71080514/172960104-396c4413-29d4-4de9-9912-a0bf3db73c3f.png)
 Above is a picture of the what happens when you press the 'Load' button on the GUI. You are shown the other puzzles that you can choose in which they are loaded onto the game board via MVC concept and the player can continue playing the game. 
