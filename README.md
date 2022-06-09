@@ -20,6 +20,7 @@ In order to use the game, the user must have the latest version of JavaFX downlo
 PICTURES WITH DESCRTIPTION 
 
 ![Selected Picture](https://user-images.githubusercontent.com/71080514/172960040-8b8cfa04-b03a-4579-ac28-8979cc25ee57.png)
+
 In the picture above, this is the result when your FIRST select a car. Since a car is present at (3,1) aka row 3, column 1, it is displayed that the user has selected a car and where they selected it. If there was not a car at the spot selected aka a blank square with a '.' inside it, the player would be notified that there isn't a car there. 
 
 ![Moved Picture](https://user-images.githubusercontent.com/71080514/172960051-055af643-dc9b-4f8d-9e00-dc6fc943a1ea.png)
