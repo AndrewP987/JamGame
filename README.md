@@ -13,6 +13,8 @@ Back to cars, cars either move horizontally or vetically and they cannot jump ov
 
 In the game another important concept besides Breadth First Search and configuration making, is using the concept of MVC or Model View Controller. Whenever a car was pressed or a load button was clicked, the controller called the model to run the specific function to take care of that action. In doing so the view was then updated for the user interface. For example, if the user wants to change the game puzzle, they would press the load button, in which the controller would notify the model to execute the load function for the user's new puzzle choice. If the puzzle is valid, than the view is updated by displaying the new puzzle.
 
+If the user wants to reset the puzzle at any point in the game, just press the 'Reset' button on the button of the GUI. 
+
 MUST HAVE TO USER 
 
 In order to use the game, the user must have the latest version of JavaFX download and add its' 'lib', library directory to the project structure and they must have the module-info.java file. 
